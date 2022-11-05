@@ -1,0 +1,51 @@
+<html>
+  <head>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link rel="stylesheet" href="style.css" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@1,100&display=swap"
+      rel="stylesheet"
+    />
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>supernova</title>
+  </head>
+  <body>
+    <button class="button" onclick="myFunction()">Toggle dark mode</button>
+    <ul id="navbar">
+      <li id="li"><a class="active" href="index.html">nasa</a></li>
+      <li id="li"><a href="jamesweb.html">james webb</a></li>
+      <li id="li"><a href="supernova.html">supernova</a></li>
+      <li id="li"><a href="the moon landing.html">the moon landing</a></li>
+    </ul>
+    <h2>Supernova</h2>
+    <p>
+      Compared to a star's entire history, the visual appearance of a supernova
+      is very brief, sometimes spanning several months,<br />
+      so that the chances of observing one with the naked eye is roughly once in
+      a lifetime.<br />
+      Only a tiny fraction of the 100 billion stars in a typical galaxy have the
+      capacity to become a supernova,<br />
+      being restricted to those having high mass and rare kinds of binary stars
+      containing white dwarfs.
+    </p>
+    <center>
+      <img
+        src="https://upload.wikimedia.org/wikipedia/commons/thumb/0/00/Crab_Nebula.jpg/200px-Crab_Nebula.jpg"
+        width="250px"
+        height="200PX"
+      />
+    </center>
+    <a href="https://en.wikipedia.org/wiki/Supernova"
+      >click here for more info</a
+    >
+    <script>
+      function myFunction() {
+        var x = document.body;
+        x.classList.toggle("dark-mode");
+      }
+    </script>
+  </body>
+</html>
